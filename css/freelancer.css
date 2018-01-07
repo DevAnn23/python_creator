@@ -15,47 +15,53 @@ body {
     margin-bottom: 2%;
 }
 
+
 .carousel-inner {
-    padding-bottom: 10px;
+	padding-bottom: 50px;
+	min-height: 500px;
+
 }
 
 .carousel-control.right,
 .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-    margin: 100px;
+	background-image: none;
+	color: #f4511e;
+	margin: 100px;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+	border-color: #f4511e;
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+	background-color: #f4511e;
 }
 
 .item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 0px 0;
+	font-size: 19px;
+	line-height: 1.375em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0px 0;
+
 }
 
 .item {
-    font-style: normal;
-    padding: 100px;
-    height: 50%;
+	font-style: normal;
+	padding: 1px;
+	padding-top: 3%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 ul {
-    margin: 10%;
-    font-size: 20px;
-    text-decoration: none;
+	margin: 10%;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 p {
-    text-indent: 5%;
+	text-indent: 5%;
 }
 
 .fa-quote-right {
